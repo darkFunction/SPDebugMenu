@@ -30,6 +30,7 @@
 
 /// View that has to be tapped to trigger
 @property (nonatomic, strong) UIView *view;
+@property (nonatomic, strong, readonly) UITapGestureRecognizer *gestureRecognizer;
 
 @property (nonatomic) NSUInteger numberOfTapsRequired;
 @property (nonatomic) NSUInteger numberOfTouchesRequired;

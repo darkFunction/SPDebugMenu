@@ -26,7 +26,7 @@
 
 @interface SPDebugMenuTapTrigger ()
 
-@property (nonatomic, strong) UITapGestureRecognizer *gestureRecognizer;
+@property (nonatomic, strong, readwrite) UITapGestureRecognizer *gestureRecognizer;
 
 @end
 
